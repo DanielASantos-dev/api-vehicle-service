@@ -27,7 +27,12 @@ public enum BrandEnum {
     JAGUAR("Jaguar"),
     ALFA_ROMEO("Alfa Romeo"),
     FERRARI("Ferrari"),
-    MITSUBISHI("Mitsubishi");
+    LAMBORGHINI("Lamborghini"),
+    LANCIA("Lancia"),
+    MITSUBISHI("Mitsubishi"),
+    BUGATTI("Bugatti"),
+    PONTIAC("Pontiac"),
+    ROLLS_ROYCE("Rolls-Royce");
 
     private final String name;
 

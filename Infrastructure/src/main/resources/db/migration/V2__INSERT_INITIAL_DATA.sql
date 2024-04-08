@@ -45,5 +45,5 @@ VALUES
     ('Impreza WRX', 'SUBARU', 1998, 'Famoso por sua participação no rally, oferece ótimo desempenho.', 'https://example.com/wrx.jpg', TRUE, '2023-03-15 08:00:00', NULL),
     ('Testarossa', 'FERRARI', 1984, 'Supercarro icônico dos anos 80 com linhas marcantes.', 'https://example.com/testarossa.jpg', FALSE, '2023-02-25 08:00:00', NULL),
     ('Veyron', 'BUGATTI', 2005, 'Uma maravilha da engenharia, foi o carro mais rápido do mundo em seu lançamento.', 'https://example.com/veyron.jpg', TRUE, '2023-03-05 08:00:00', NULL),
-    ('Phantom', 'ROLLS-ROYCE', 2003, 'Sinônimo de luxo e conforto supremos em um automóvel.', 'https://example.com/phantom.jpg', FALSE, '2023-01-18 08:00:00', NULL),
+    ('Phantom', 'ROLLS_ROYCE', 2003, 'Sinônimo de luxo e conforto supremos em um automóvel.', 'https://example.com/phantom.jpg', FALSE, '2023-01-18 08:00:00', NULL),
     ('F40', 'FERRARI', 1987, 'Um dos supercarros mais emblemáticos e desejados da história.', 'https://example.com/f40.jpg', TRUE, '2023-02-22 08:00:00', NULL);
