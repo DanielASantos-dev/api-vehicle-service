@@ -26,6 +26,7 @@ public enum BrandEnum {
     MINI("Mini"),
     JAGUAR("Jaguar"),
     ALFA_ROMEO("Alfa Romeo"),
+    FERRARI("Ferrari"),
     MITSUBISHI("Mitsubishi");
 
     private final String name;
