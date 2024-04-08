@@ -78,7 +78,7 @@ public class VehicleController {
     }
 
     @GetMapping
-    public BaseResponse<PageDto<Vehicle>> findAllOrParams(@RequestParam(required = false) String vehicleName, @RequestParam(required = false) BrandEnum brand, @RequestParam(required = false) Integer year, @RequestParam(required = false) Boolean isSold, @RequestParam(required = false) LocalDate startDate, @RequestParam(required = false) LocalDate endDate, @RequestParam(defaultValue = "0") Integer page, @RequestParam(defaultValue = "12") Integer size, @RequestParam(defaultValue = "ASC") String sort) {
+    public BaseResponse<PageDto<Vehicle>> findAllOrParams(@RequestParam(required = false) String vehicleName, @RequestParam(required = false) BrandEnum brand, @RequestParam(required = false) Integer year, @RequestParam(required = false) Boolean isSold, @RequestParam(required = false) LocalDate startDate, @RequestParam(required = false) LocalDate endDate, @RequestParam(defaultValue = "0") Integer page, @RequestParam(defaultValue = "500") Integer size, @RequestParam(defaultValue = "ASC") String sort) {
         log.info("Start::findAllOrParams::VehicleController");
         var response = findAllVehiclesOrParamsUseCase.find(VehicleFindParam.vehicleFindParamFactory(vehicleName, brand, year, isSold, startDate != null ? startDate.atStartOfDay() : null, endDate != null ? endDate.atTime(LocalTime.MAX) : null), PageableDto.pageableDtoFactory(page, size, sort));
         log.info("End::findAllOrParams::VehicleController");
