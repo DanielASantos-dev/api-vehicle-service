@@ -1,0 +1,6 @@
+rootProject.name = 'Ecercise5TestTinnova'
+include 'Core'
+include 'UseCase'
+include 'Application'
+include 'Infrastructure'
+
