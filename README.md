@@ -1,6 +1,5 @@
-# Api de Teste Tinnova
 
-A API de Teste Tinnova foi desenvolvida seguindo os princípios da arquitetura limpa, dividida em módulos que incluem: Core, UseCase, Application e Infrastructure. No módulo Infrastructure, utilizamos o framework Spring Boot para facilitar a implementação e manutenção do projeto.
+A API foi desenvolvida seguindo os princípios da arquitetura limpa, dividida em módulos que incluem: Core, UseCase, Application e Infrastructure. No módulo Infrastructure, utilizamos o framework Spring Boot para facilitar a implementação e manutenção do projeto.
 
 ## Índice
 
